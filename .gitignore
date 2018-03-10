@@ -14,7 +14,7 @@ ExportedObj/
 .consulo/
 *.csproj
 *.unityproj
-*.sln
+#*.sln Why would you want to ignore sln files?
 *.suo
 *.tmp
 *.user
