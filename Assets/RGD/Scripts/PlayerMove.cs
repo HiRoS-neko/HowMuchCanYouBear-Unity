@@ -20,8 +20,8 @@ public class PlayerMove : MonoBehaviour
     public AudioClip landSound; //play when landing on ground
 
 
-    [SerializeField, Range(-10, 10)] private float _minDepthAllowance = -1;
-    [SerializeField, Range(-10, 10)] private float _maxDepthAllowance = 6;
+    //[SerializeField, Range(-10, 10)] private float _minDepthAllowance = -1;
+    //[SerializeField, Range(-10, 10)] private float _maxDepthAllowance = 6;
     private float _depth;
 
     //movement
@@ -134,9 +134,9 @@ public class PlayerMove : MonoBehaviour
 
         //GetComponent<DisplayTip>().DebugTip(moveDirection.ToString());
 
-        if (((transform.position + direction).z < _minDepthAllowance && direction.z < 0) ||
-            ((transform.position + direction).z > _maxDepthAllowance && direction.z > 0))
-            direction = direction.x * Vector3.right;
+        //if (((transform.position + direction).z < _minDepthAllowance && direction.z < 0) ||
+        //    ((transform.position + direction).z > _maxDepthAllowance && direction.z > 0))
+        //    direction = direction.x * Vector3.right;
 
 
         moveDirection = transform.position + direction;
