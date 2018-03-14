@@ -26,8 +26,8 @@ public class GrabLedge : MonoBehaviour
         _rigid.velocity = Vector3.zero;
         _rigid.useGravity = false;
         _anim.SetBool("LedgeGrab", true);
-        this.transform.position = pos;
-        
+        this.transform.position = pos.x * Vector3.right + pos.y * Vector3.up + transform.position.z * Vector3.forward;
+
         this.transform.LookAt(pos + (right ? Vector3.left : Vector3.right));
     }
 
