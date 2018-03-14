@@ -19,7 +19,7 @@ public class Flicker : MonoBehaviour
 	{
 		if (Random.Range(0, 7) == 2)
 		{
-			_light.intensity = (float) Math.Abs(Math.Sin(8*Time.time)) * 16;
+			_light.intensity = (float) Math.Abs(Math.Sin(8*Time.time)) * 2;
 		}
 		
 	}
