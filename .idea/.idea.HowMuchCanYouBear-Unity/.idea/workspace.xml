@@ -34,9 +34,13 @@
       <file leaf-file-name="EnemyControl.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/EnemyControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <marker date="1521635947006" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521635947006" expanded="true" signature="122:171" ph="{...}" />
+                <marker date="1521635947006" expanded="true" signature="146:169" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,16 +50,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Frustum.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Aura/Classes/Frustum.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,15 +101,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GrabLedge.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyPace.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flicker.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyLook.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySight.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyTrack.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyControl.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LedgeObject.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Aura/Classes/Frustum.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ResetEntityMaterials.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GrabLedge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyPace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LedgeObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -205,12 +199,12 @@
       <workItem from="1521032206674" duration="2503000" />
       <workItem from="1521036906185" duration="87000" />
       <workItem from="1521505773727" duration="685000" />
-      <workItem from="1521636328783" duration="76000" />
+      <workItem from="1521636328783" duration="821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5056000" />
+    <option name="totallyTimeSpent" value="5801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +273,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1521635947006" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521635947006" expanded="true" signature="122:171" ph="{...}" />
+            <marker date="1521635947006" expanded="true" signature="146:169" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -351,7 +349,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1521635947006" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521635947006" expanded="true" signature="122:171" ph="{...}" />
+            <marker date="1521635947006" expanded="true" signature="146:169" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -502,11 +504,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyControl.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ResetEntityMaterials.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1518451456000" expanded="true" signature="6:140" ph="..." />
+            <marker date="1518451456000" expanded="true" signature="171:1774" ph="{...}" />
+            <marker date="1518451456000" expanded="true" signature="175:268" ph="/* Menu interface for resetting the materials associated with special entity types. ... */" />
+            <marker date="1518451456000" expanded="true" signature="315:1772" ph="{...}" />
+            <marker date="1518451456000" expanded="true" signature="485:522" ph="{...}" />
+            <marker date="1518451456000" expanded="true" signature="526:584" ph="/* \brief Force refreshes all meshes in scene. ... */" />
+            <marker date="1518451456000" expanded="true" signature="630:1769" ph="{...}" />
+            <marker date="1518451456000" expanded="true" signature="966:1155" ph="{...}" />
+            <marker date="1518451456000" expanded="true" signature="1184:1371" ph="{...}" />
+            <marker date="1518451456000" expanded="true" signature="1405:1640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1521635947006" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521635947006" expanded="true" signature="122:171" ph="{...}" />
+            <marker date="1521635947006" expanded="true" signature="146:169" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
