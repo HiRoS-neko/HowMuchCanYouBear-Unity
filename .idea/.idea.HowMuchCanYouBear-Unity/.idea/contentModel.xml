@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Administrator\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_HowMuchCanYouBear-Unity.1826689211.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Administrator\Documents\GitHub\HowMuchCanYouBear-Unity" t="IncludeRecursive">
+    <e p="C:\Users\hiros\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_HowMuchCanYouBear-Unity.1917170093.00" t="ExcludeRecursive" />
+    <e p="E:\Projects\HowMuchCanYouBear-Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -21,6 +21,72 @@
         <e p="EnemyLook.cs" t="Include" />
         <e p="EnemyPace.cs" t="Include" />
         <e p="EnemyTrack.cs" t="Include" />
+        <e p="MicroSplat" t="Include">
+          <e p="Core" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Scene" t="Include">
+                <e p="MicroSplatData" t="Include">
+                  <e p="MicroSplat.shader" t="Include" />
+                  <e p="MicroSplat_Base.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="FeatureDescriptor.cs" t="Include" />
+                <e p="Fragments" t="Include">
+                  <e p="microsplat_properties_splat.txt" t="Include" />
+                  <e p="microsplat_shared.txt" t="Include" />
+                  <e p="microsplat_terrain_body.txt" t="Include" />
+                  <e p="microsplat_terrain_surface_fragment.txt" t="Include" />
+                  <e p="microsplat_terrain_surface_vertex.txt" t="Include" />
+                  <e p="microsplat_terrain_unityld_fragment.txt" t="Include" />
+                  <e p="microsplat_terrain_unityld_vertex.txt" t="Include" />
+                </e>
+                <e p="InternalShaders" t="Include">
+                  <e p="HeightFromNormal.shader" t="Include" />
+                  <e p="NormalSAOFromDiffuse.shader" t="Include" />
+                  <e p="NormalSAOFromHeight.shader" t="Include" />
+                  <e p="NormalSAOFromNormal.shader" t="Include" />
+                </e>
+                <e p="IRenderLoopAdapter.cs" t="Include" />
+                <e p="MicroSplatBaseFeatures.cs" t="Include" />
+                <e p="MicroSplatDefines.cs" t="Include" />
+                <e p="MicroSplatShaderGUI.cs" t="Include" />
+                <e p="MicroSplatShaderGUI_Compiler.cs" t="Include" />
+                <e p="MicroSplatShaderGUI_PerTex.cs" t="Include" />
+                <e p="MicroSplatTerrainEditor.cs" t="Include" />
+                <e p="MicroSplatTerrainEditor_Baking.cs" t="Include" />
+                <e p="MicroSplatTerrainEditor_TerrainDesc.cs" t="Include" />
+                <e p="MicroSplatTerrainEditor_WeightLimiting.cs" t="Include" />
+                <e p="MicroSplatUtilities.cs" t="Include" />
+                <e p="SurfaceShaderRenderLoopAdapter.cs" t="Include" />
+                <e p="TextureArrayConfigEditor.cs" t="Include" />
+                <e p="TextureArrayEditor.cs" t="Include" />
+                <e p="TextureArrayPreprocessor.cs" t="Include" />
+                <e p="UnityLDRenderLoopAdapter.cs" t="Include" />
+              </e>
+              <e p="MicroSplatAddPass.shader" t="Include" />
+              <e p="MicroSplatPropData.cs" t="Include" />
+              <e p="MicroSplatRuntimeUtil.cs" t="Include" />
+              <e p="MicroSplatTerrain.cs" t="Include" />
+              <e p="TextureArrayConfig.cs" t="Include" />
+              <e p="VegetationStudio" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="microsplat_func_vsgrassmap.txt" t="Include" />
+                  <e p="microsplat_func_vsshadowmap.txt" t="Include" />
+                  <e p="microsplat_properties_vsgrassmap.txt" t="Include" />
+                  <e p="microsplat_properties_vsshadowmap.txt" t="Include" />
+                  <e p="MicroSplatVegetationStudio.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="MicroSplatData" t="Include">
+          <e p="MicroSplat.shader" t="Include" />
+          <e p="MicroSplat_Base.shader" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -214,19 +280,104 @@
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
               <e p="changelog.txt" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="pb_AboutWindow.cs" t="Include" />
+                <e p="pb_UpdateAvailable.cs" t="Include" />
+                <e p="pb_UpdateCheck.cs" t="Include" />
+                <e p="pb_VersionInfo.cs" t="Include" />
+                <e p="pb_VersionUtil.cs" t="Include" />
+              </e>
+              <e p="Font" t="Include">
+                <e p="SIL Open Font License.txt" t="Include" />
+              </e>
+              <e p="pc_AboutEntry_ProBuilder.txt" t="Include" />
+              <e p="ThirdPartyLicenses.txt" t="Include" />
             </e>
             <e p="API Examples" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ClearUnusedAttributes.cs" t="Include" />
+                <e p="CreateShadowObject.cs" t="Include" />
+                <e p="CustomAction.cs" t="Include" />
+                <e p="EditorCallbackViewer.cs" t="Include" />
+                <e p="RenameNewObjects.cs" t="Include" />
+                <e p="SetCustomUnwrapParams.cs" t="Include" />
+              </e>
               <e p="Icosphere FFT" t="Include">
                 <e p="README.txt" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="CameraControls.cs" t="Include" />
+                  <e p="IcoBumpin.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Misc" t="Include">
+                <e p="HueCube.cs" t="Include" />
+              </e>
+              <e p="Procedural Mesh" t="Include">
+                <e p="ExtrudeRandomEdges.cs" t="Include" />
+              </e>
+              <e p="Runtime Editing" t="Include">
+                <e p="RuntimeEdit.cs" t="Include" />
+              </e>
+              <e p="Vertex Colors" t="Include">
+                <e p="HighlightNearestFace.cs" t="Include" />
               </e>
             </e>
             <e p="Editor" t="Include">
+              <e p="Addons" t="Include">
+                <e p="pb_Fbx.cs" t="Include" />
+              </e>
               <e p="MenuItems" t="Include">
+                <e p="Actions" t="Include">
+                  <e p="pb_ExportObj.cs" t="Include" />
+                  <e p="pb_GenerateUV2.cs" t="Include" />
+                  <e p="pb_MakeMeshAsset.cs" t="Include" />
+                  <e p="pb_ProBuilderize.cs" t="Include" />
+                  <e p="pb_StripProBuilderScripts.cs" t="Include" />
+                </e>
+                <e p="Geometry" t="Include">
+                  <e p="pb_BridgeEdges.cs" t="Include" />
+                  <e p="pb_ConformNormals.cs" t="Include" />
+                  <e p="pb_ConnectEdges.cs" t="Include" />
+                  <e p="pb_DetachDeleteFace.cs" t="Include" />
+                  <e p="pb_ExtrudeElement.cs" t="Include" />
+                  <e p="pb_FlipEdge.cs" t="Include" />
+                  <e p="pb_FlipNormals.cs" t="Include" />
+                  <e p="pb_FreezeTransform.cs" t="Include" />
+                  <e p="pb_MergeFaces.cs" t="Include" />
+                  <e p="pb_SetPivot.cs" t="Include" />
+                  <e p="pb_Triangulate.cs" t="Include" />
+                  <e p="pb_VertexMergeWeld.cs" t="Include" />
+                </e>
                 <e p="Repair" t="Include">
+                  <e p="pb_CleanLeakedMeshes.cs" t="Include" />
+                  <e p="pb_ForceSceneRefresh.cs" t="Include" />
+                  <e p="pb_RebuildMeshes.cs" t="Include" />
+                  <e p="pb_RebuildSharedIndices.cs" t="Include" />
+                  <e p="pb_RemoveDegenerateTris.cs" t="Include" />
+                  <e p="pb_RepairColors.cs" t="Include" />
+                  <e p="pb_RepairMeshReferences.cs" t="Include" />
+                  <e p="pb_RepairUV.cs" t="Include" />
                   <e p="pb_ResetEntityMaterials.cs" t="Include" />
+                  <e p="pb_UpgradeBasicToAdvanced.cs" t="Include" />
+                </e>
+                <e p="Selection" t="Include">
+                  <e p="pb_EdgeSelection.cs" t="Include" />
+                  <e p="pb_ExpandSelection.cs" t="Include" />
+                  <e p="pb_InvertSelection.cs" t="Include" />
+                  <e p="pb_MaterialSelection.cs" t="Include" />
+                </e>
+                <e p="Tools" t="Include">
+                  <e p="pb_BooleanInterface.cs" t="Include" />
+                  <e p="pb_MaterialSelection.cs" t="Include" />
+                </e>
+                <e p="Window" t="Include">
+                  <e p="pb_ProBuilderMenuItems.cs" t="Include" />
                 </e>
               </e>
+              <e p="pb_MenuItems.cs" t="Include" />
               <e p="pb_MissingScriptEditor.cs" t="Include" />
+              <e p="pb_Preferences.cs" t="Include" />
+              <e p="pb_ScenePostProcessor.cs" t="Include" />
             </e>
             <e p="README.txt" t="Include" />
             <e p="Shader" t="Include">
