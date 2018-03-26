@@ -23,9 +23,10 @@ public class EnemyPace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Magnitude(transform.position - _pos) > _distance)
+        if (Vector3.Distance(transform.position, _pos) > _distance)
         {
             _anim.SetBool("turn", true);
+            _pos = transform.position;
         }
         else
         {
