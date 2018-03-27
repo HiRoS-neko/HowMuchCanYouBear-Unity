@@ -26,6 +26,7 @@ ModelImporter:
     400016: ChamferCyl021
     400018: ChamferCyl022
     2100000: No Name
+    2100002: lambert1
     2300000: ChamferBox034
     2300002: ChamferBox035
     2300004: ChamferBox036
@@ -35,6 +36,7 @@ ModelImporter:
     2300012: ChamferCyl020
     2300014: ChamferCyl021
     2300016: ChamferCyl022
+    2300018: //RootNode
     3300000: ChamferBox034
     3300002: ChamferBox035
     3300004: ChamferBox036
@@ -44,6 +46,7 @@ ModelImporter:
     3300012: ChamferCyl020
     3300014: ChamferCyl021
     3300016: ChamferCyl022
+    3300018: //RootNode
     4300000: ChamferBox034
     4300002: ChamferBox035
     4300004: ChamferBox036
@@ -53,8 +56,15 @@ ModelImporter:
     4300012: ChamferCyl020
     4300014: ChamferCyl021
     4300016: ChamferCyl022
+    4300018: ArmChair
+    6400000: //RootNode
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 179cda03657cc264fb0bdafb96d25423, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -86,7 +96,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

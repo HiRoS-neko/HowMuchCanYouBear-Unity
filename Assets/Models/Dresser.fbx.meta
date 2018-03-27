@@ -42,7 +42,12 @@ ModelImporter:
     4300010: Drawer1
     4300012: Drawer0
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 0304d1f16d2645044a14ea207972af2d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -40,6 +40,7 @@ ModelImporter:
     400030: Tube010
     400032: //RootNode
     2100000: No Name
+    2100002: lambert1
     2300000: Box060
     2300002: Box061
     2300004: Box062
@@ -56,6 +57,7 @@ ModelImporter:
     2300026: Tube008
     2300028: Tube009
     2300030: Tube010
+    2300032: //RootNode
     3300000: Box060
     3300002: Box061
     3300004: Box062
@@ -72,6 +74,7 @@ ModelImporter:
     3300026: Tube008
     3300028: Tube009
     3300030: Tube010
+    3300032: //RootNode
     4300000: Box060
     4300002: Box061
     4300004: Box062
@@ -88,8 +91,15 @@ ModelImporter:
     4300026: Tube008
     4300028: Tube009
     4300030: Tube010
+    4300032: Workbench
+    6400000: //RootNode
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 88fb189af3abc904a8f97277c7ce5564, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -121,7 +131,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

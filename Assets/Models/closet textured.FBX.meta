@@ -20,6 +20,8 @@ ModelImporter:
     100024: //RootNode
     100026: Cylinder003
     100028: Sphere003
+    100030: Closet
+    100032: ClosetDoor
     400000: Box010
     400002: Box013
     400004: Box014
@@ -35,10 +37,13 @@ ModelImporter:
     400024: //RootNode
     400026: Cylinder003
     400028: Sphere003
+    400030: Closet
+    400032: ClosetDoor
     2100000: 'Material #38'
     2100002: 'Material #25'
     2100004: 'Material #37'
     2100006: 'Material #24'
+    2100008: lambert3
     2300000: Box010
     2300002: Box013
     2300004: Box014
@@ -53,6 +58,8 @@ ModelImporter:
     2300022: ChamferBox008
     2300024: Cylinder003
     2300026: Sphere003
+    2300028: Closet
+    2300030: ClosetDoor
     3300000: Box010
     3300002: Box013
     3300004: Box014
@@ -67,6 +74,8 @@ ModelImporter:
     3300022: ChamferBox008
     3300024: Cylinder003
     3300026: Sphere003
+    3300028: Closet
+    3300030: ClosetDoor
     4300000: Box010
     4300002: Box013
     4300004: ChamferBox004
@@ -81,7 +90,16 @@ ModelImporter:
     4300022: Box016
     4300024: Box018
     4300026: Box017
-  externalObjects: {}
+    4300028: Closet
+    4300030: ClosetDoor
+    6400000: Closet
+    6400002: ClosetDoor
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 48df885f74fe1fe4fbab607fa8d2e5cc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -113,7 +131,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
